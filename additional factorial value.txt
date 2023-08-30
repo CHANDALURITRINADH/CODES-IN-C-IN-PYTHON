@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+
+void main()
+{
+    int a []={9,19,29,39,49,59};
+    int *ptr;
+    ptr=&a[3];
+    ++ptr;
+    ++*ptr;
+    --ptr;
+    --*ptr;
+    printf("%d,%d",a[3],a[4]);
+    printf("%d,%d",*(a+3),*(a+4));
+}

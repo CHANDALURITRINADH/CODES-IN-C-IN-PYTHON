@@ -1,0 +1,3 @@
+n=int (input("enter n:"))
+for p in range(1,11,1):
+    print(n,"=",p,"=",n*p)

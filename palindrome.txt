@@ -1,0 +1,18 @@
+s=input("enter a str:")
+r=' '
+i=o
+while(i<len(s)):
+    d=s[len(s)-(i+1)]
+    r=r+d
+    i=i+l
+    print("reverse is:",r)
+    if(r==s):
+        print("palindrome:")
+    else:
+     print("not a palindropme:")
+     i=1
+     while(i>=1):
+      print(i)
+      i=i-1
+    else:
+      print("while with else:")

@@ -1,0 +1,13 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+void main()
+{
+    int a[]={12,22,32,42,52,};
+    int *ptr;
+    ptr=&a[1];
+    --ptr;
+    ++*ptr;
+    ++ptr;
+    --*ptr;
+    printf("%d,%d",a[1],a[2]);
+}

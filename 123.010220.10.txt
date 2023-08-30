@@ -1,0 +1,21 @@
+#include <stdio.h>
+void main()
+{
+    int a [5][5],b[5][5],m[5][5],rs,cs,r,c;
+    printf("enter row & colsize:");
+    scanf("%d,%d",&rs,&cs);
+    printf("enter matrix-a\n:");
+    for(r=0;r<rs;r=r+1) for(c=0;c<cs;c=c+1)
+    scanf("%d",&a[r][c]);
+    printf("enter matrix-b ele\n");
+    for(r=0;r<rs;r=r+1)
+    for(c=0;c<cs;c=c+1)
+    scanf("%d",&b[r][c]);
+    for(r=0;r<rs;r=r+1)
+    {
+        for(c=0;c<cs;c=c+1)
+        {
+            printf("&d",m[r][c]);
+        }
+    }
+}

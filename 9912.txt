@@ -1,0 +1,16 @@
+#include <stdio.h>
+void even_odd(int n)
+{
+   if(n%2==0)
+   printf("%d is even:",n);
+   else
+   printf("%d is odd:",n );
+}
+void main ()
+{int n;
+printf("enetr n:");
+scanf("%d",&n);
+even_odd(n);
+printf("enter n:");
+scanf("%d",&n);
+}
